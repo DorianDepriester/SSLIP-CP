@@ -64,11 +64,3 @@ for step=1:nstep
     plotGamma(ebsd, grains, sS, step)
     pause(0.1) % Just wait to let the figure appear
 end
-
-%% A enlever
-ebsd_66=ebsd(ebsd.grainId==66);
-gammas=ebsd.prop.gamma;
-gamma66=gammas(ebsd.grainId==66,:,:);
-ebsd_66.prop.gamma=gamma66;
-figure
-plotGamma(ebsd_66, grains(66), sS, 3)
