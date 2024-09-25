@@ -9,15 +9,17 @@ This version of [SSLIP](https://github.com/Tijmenvermeij/SSLIP) [[1](#sslip)], (
 - slip anisotropies.
 
 # Cite this work
-If you use this work, please cite Ref. [2]. You can use the following BibTeX entry:
+If you use this work, please cite Ref. [[2](#sslipcp)]. You can use the following BibTeX entry:
 ```bibtex
 @article{SSLIP-CP,
 title = {Slip identification from HR-DIC/EBSD: Incorporating Crystal Plasticity constitutive laws},
 journal = {International Journal of Solids and Structures},
+volume = {305},
 pages = {113077},
 year = {2024},
 issn = {0020-7683},
 doi = {https://doi.org/10.1016/j.ijsolstr.2024.113077},
+url = {https://www.sciencedirect.com/science/article/pii/S0020768324004360},
 author = {Dorian Depriester and Jean-patrick Goulmy and Laurent Barrallier},
 }
 ```
